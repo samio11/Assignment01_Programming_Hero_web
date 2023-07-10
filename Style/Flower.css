@@ -299,3 +299,59 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
+.bonus_box{
+    height: 400px;
+    width: 1330px;
+    /* background-color: #FFB6C1; */
+    background-image: url('../bonus_pic.jpg'),linear-gradient(45deg,#808080,#808080);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: red; */
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b_box1{
+    background-color: transparent;
+    box-shadow: 3px 3px 10px  white;
+    margin-left: 70px;
+}
+
+.b_box1 > h3{
+    color: black;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.offer1{
+    color: blue;
+}
+
+.b_box1 > h5{
+    color: black;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.b_button{
+    height: 50px;
+    width: 250px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 20px;
+}
