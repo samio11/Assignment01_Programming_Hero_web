@@ -259,3 +259,43 @@ input[type="email"]
     border-radius: 10px;
     border: 0px;
 }
+
+.foot_container{
+    width: 100vw;
+    height: 300px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foot_write > h2{
+    color: white;
+font-family: Lato;
+font-size: 35px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 15px;
+}
+
+.foot_write > h6{
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.foot_write > p{
+    color: rgba(255, 255, 255, 0.40);
+font-family: Lato;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
